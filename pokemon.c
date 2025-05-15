@@ -48,7 +48,7 @@ void batalhar(Pokemon *jogador, Pokemon *inimigo) {
         scanf("%d", &escolha);
         
         if (escolha < 1 || escolha > 4) {
-            printf("Ataque inválido!\n");
+            printf("Ataque invalido!\n");
             continue;
         }
         
@@ -84,12 +84,12 @@ int main() {
     
     // Cria os Pokémon
     Pokemon pikachu;
-    char ataquesPikachu[4][20] = {"Choque do Trovão", "Investida", "Cauda de Ferro", "Ataque Rápido"};
+    char ataquesPikachu[4][20] = {"Choque do Trovao", "Investida", "Cauda de Ferro", "Ataque Rapido"};
     int danosPikachu[4] = {30, 15, 20, 10};
     inicializarPokemon(&pikachu, "Pikachu", 100, ataquesPikachu, danosPikachu);
     
     Pokemon charizard;
-    char ataquesCharizard[4][20] = {"Lança-Chamas", "Garra de Dragão", "Rajada de Fogo", "Asas de Vento"};
+    char ataquesCharizard[4][20] = {"Lanca-Chamas", "Garra de Dragao", "Rajada de Fogo", "Asas de Vento"};
     int danosCharizard[4] = {35, 25, 30, 10};
     inicializarPokemon(&charizard, "Charizard", 120, ataquesCharizard, danosCharizard);
     
@@ -99,3 +99,6 @@ int main() {
     
     return 0;
 }
+
+
+
