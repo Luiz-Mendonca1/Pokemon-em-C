@@ -1,7 +1,7 @@
 # PokemonEmC
 Jogo criado em C para estudo de linguagem
 
-Informações introdutorias:
+Informações introdutórias:
 
 #include <stdlib.h>: para alocação de memória, números aleatórios e conversões.
 #include <time.h>: gerar números verdadeiramente aleatórios.
